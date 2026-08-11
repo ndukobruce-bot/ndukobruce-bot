@@ -35,7 +35,7 @@ single source tree.
 - **Electron** produces a Windows desktop installer
 - **Express** backend with **Pesapal** payment integration and Premium feature gating
 
-**Twenty-three modules**, including a study *Autopilot* that generates a schedule from goals,
+**Twenty-plus screens**, including a study *Autopilot* that generates a schedule from goals,
 deadlines and available hours; a notes *Summarizer* that emits summaries, keywords, quiz
 questions and flashcards; *Exam Mode* revision sprints; shared *Study Rooms*; weekly progress
 reports; grades, planner, timer, flashcards, reminders and an admin console.
@@ -63,7 +63,7 @@ for voice notes and **S3** for staging.
 - Login verification codes: salted-hash at rest, constant-time compare, expiring, attempt-capped, single-use
 - Serverless on **Vercel** with Redis/KV persistence
 - Dependency-free motion system — every continuous animation composited, zero per-frame repaints
-- Route-level code splitting cut the initial bundle **from 204 kB to 98 kB gzipped**
+- Route-level code splitting roughly **halved the initial JS payload**
 
 `React` `Vite` `Tailwind` `Express` `AWS Bedrock` `Vercel` `Redis`
 
