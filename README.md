@@ -2,7 +2,7 @@
 
 # Bruce Nduko
 
-**Software engineer.** I build tools that turn everyday evidence into something people can actually use.
+**Software engineer.** I build full-stack products for people the software industry usually designs around — low bandwidth, shared devices, more than one language, and money that matters.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-brucenduko-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brucenduko)
 [![Email](https://img.shields.io/badge/Email-ndukobruce%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ndukobruce@gmail.com)
@@ -12,47 +12,65 @@
 
 ---
 
-## About
+## What I actually do
 
-I like problems where the hard part isn't the code — it's making something genuinely usable by
-people the software industry usually skips. Most of what I build sits at that intersection:
-full-stack web apps, AI-assisted pipelines, and interfaces designed for real constraints like
-patchy connectivity, shared devices, and more than one language.
+Ship whole products, not slices of them. That means the data model and the animation curve,
+the payment callback and the empty state, the AWS pipeline and the release checklist. I care
+most about the parts that are easy to skip: what happens offline, what happens in the second
+language, and what happens when the API is down.
 
-- 🔭 Currently building **Alama** — a worker-owned Productivity Passport
-- 🌱 Working with **React, Node, Python, and AWS Bedrock**
-- 💬 Ask me about full-stack apps, LLM pipelines, or designing for low-bandwidth users
-- 📫 Reach me at **ndukobruce@gmail.com**
+`JavaScript` · `Python` · `C++` · React · Node · Express · Django · AWS Bedrock · Capacitor · Electron
 
 ---
 
 ## Featured work
 
-### 🛂 Alama — Productivity Passport
-A verifiable work record owned by the worker, not the platform. Forwarded M-Pesa messages, job
-photos, and voice notes become a shareable Passport that a landlord or lender can trust.
+### 📚 [Study Sphere](https://github.com/ndukobruce-bot/Study-Sphere) — one codebase, four platforms
+A student productivity hub that ships to the **web, Android, iOS, and Windows desktop** from a
+single source tree.
 
-- Three-stage inspectable pipeline: extraction → reconciliation → generation
-- **AWS Bedrock** for extraction and narrative generation, **Transcribe** for voice notes
-- Peer confirmation, QR sharing, CSV export, generated CVs
-- **10 languages** and 7 display currencies, with full RTL support
-- Hand-rolled motion system — no animation dependencies
+**Architecture**
+- Installable **PWA** — web app manifest and a service worker for offline use
+- **Capacitor** wraps the same build for Android and iOS
+- **Electron** produces a Windows desktop installer
+- **Express** backend with **Pesapal** payment integration and Premium feature gating
 
-`React` `Vite` `Tailwind` `Express` `AWS Bedrock` `Vercel`
+**Twenty-three modules**, including a study *Autopilot* that generates a schedule from goals,
+deadlines and available hours; a notes *Summarizer* that emits summaries, keywords, quiz
+questions and flashcards; *Exam Mode* revision sprints; shared *Study Rooms*; weekly progress
+reports; grades, planner, timer, flashcards, reminders and an admin console.
 
-### 📚 [Study Sphere](https://github.com/ndukobruce-bot/Study-Sphere)
-Student-to-student study platform — built around how students actually revise together.
-**[Live →](https://ndukobruce-bot.github.io/Study-Sphere)**
+Shipped with real release engineering — build verification, a release checklist, a testing
+guide and store deployment docs.
 
-`JavaScript`
+**[Live demo →](https://ndukobruce-bot.github.io/Study-Sphere)**
 
-### 📒 [Ledger](https://github.com/ndukobruce-bot/Ledger)
-"Your Job Partner" — job and work tracking.
+`JavaScript` `Express` `Capacitor` `Electron` `PWA` `Pesapal`
 
-### ⚙️ [C-programs](https://github.com/ndukobruce-bot/C-programs)
-Systems and algorithms work in C/C++ — the fundamentals, kept sharp.
+---
 
-`C++`
+### 🛂 Alama — a work record the worker owns
+Informal workers have years of provable work and no way to prove it. Alama turns forwarded
+M-Pesa messages, job photos and voice notes into a verifiable Productivity Passport that a
+landlord or a lender can actually trust.
+
+**Pipeline** — three stages you can open and read, not a black box:
+`extraction → reconciliation → generation`, running on **AWS Bedrock**, with **Transcribe**
+for voice notes and **S3** for staging.
+
+**Engineering**
+- **10 locales** with full RTL, and 7 display currencies off a live FX feed
+- Login verification codes: salted-hash at rest, constant-time compare, expiring, attempt-capped, single-use
+- Serverless on **Vercel** with Redis/KV persistence
+- Dependency-free motion system — every continuous animation composited, zero per-frame repaints
+- Route-level code splitting cut the initial bundle **from 204 kB to 98 kB gzipped**
+
+`React` `Vite` `Tailwind` `Express` `AWS Bedrock` `Vercel` `Redis`
+
+---
+
+Also here: [**C-programs**](https://github.com/ndukobruce-bot/C-programs) — object-oriented
+programming coursework in C++, kept public because fundamentals are worth showing.
 
 ---
 
@@ -66,20 +84,30 @@ Systems and algorithms work in C/C++ — the fundamentals, kept sharp.
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-**Frameworks & runtime**
+**Frontend**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+
+**Backend & data**
+
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
 
-**Platform & tooling**
+**Cross-platform**
+
+![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+
+**Cloud & tooling**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
@@ -118,7 +146,8 @@ Systems and algorithms work in C/C++ — the fundamentals, kept sharp.
 
 <div align="center">
 
-**Open to interesting problems.** Say hello →
-[LinkedIn](https://www.linkedin.com/in/brucenduko) · [Email](mailto:ndukobruce@gmail.com)
+**Open to interesting problems.**
+
+[LinkedIn](https://www.linkedin.com/in/brucenduko) · [ndukobruce@gmail.com](mailto:ndukobruce@gmail.com)
 
 </div>
