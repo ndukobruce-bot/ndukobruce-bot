@@ -4,6 +4,7 @@
 
 **Software engineer.** I build full-stack products for people the software industry usually designs around — low bandwidth, shared devices, more than one language, and money that matters.
 
+[![StudySphere](https://img.shields.io/badge/Live-www.studysphere.it.com-2563eb?style=flat-square&logo=googlechrome&logoColor=white)](https://www.studysphere.it.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-brucenduko-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brucenduko)
 [![Email](https://img.shields.io/badge/Email-ndukobruce%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ndukobruce@gmail.com)
 ![Profile views](https://komarev.com/ghpvc/?username=ndukobruce-bot&style=flat-square&color=2563eb&label=Profile+views)
@@ -43,7 +44,7 @@ reports; grades, planner, timer, flashcards, reminders and an admin console.
 Shipped with real release engineering — build verification, a release checklist, a testing
 guide and store deployment docs.
 
-**[Live demo →](https://ndukobruce-bot.github.io/Study-Sphere)**
+**Live at [www.studysphere.it.com](https://www.studysphere.it.com)** — own domain, HTTPS, apex → www.
 
 `JavaScript` `Express` `Capacitor` `Electron` `PWA` `Pesapal`
 
