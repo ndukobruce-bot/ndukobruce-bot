@@ -113,38 +113,6 @@ programming coursework in C++, kept public because fundamentals are worth showin
 
 ---
 
-## Activity
-
-<div align="center">
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api?username=ndukobruce-bot&show_icons=true&hide_border=true&theme=tokyonight&icon_color=2563eb&hide=issues"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=ndukobruce-bot&show_icons=true&hide_border=true&title_color=2563eb&icon_color=2563eb&hide=issues"
-    alt="GitHub stats"
-    height="165"
-  />
-</picture>
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ndukobruce-bot&layout=compact&hide_border=true&theme=tokyonight&langs_count=6"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ndukobruce-bot&layout=compact&hide_border=true&title_color=2563eb&langs_count=6"
-    alt="Top languages"
-    height="165"
-  />
-</picture>
-
-</div>
-
----
-
 <div align="center">
 
 **Open to interesting problems.**
