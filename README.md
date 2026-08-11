@@ -44,7 +44,7 @@ reports; grades, planner, timer, flashcards, reminders and an admin console.
 Shipped with real release engineering — build verification, a release checklist, a testing
 guide and store deployment docs.
 
-**Live at [www.studysphere.it.com](https://www.studysphere.it.com)** — own domain, HTTPS, apex → www.
+**Live at [www.studysphere.it.com](https://www.studysphere.it.com)** — own domain, HTTPS, apex redirect configured.
 
 `JavaScript` `Express` `Capacitor` `Electron` `PWA` `Pesapal`
 
