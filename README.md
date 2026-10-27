@@ -2,8 +2,11 @@
 
 # Bruce Nduko
 
-**Software engineer.** I build full-stack products for people the software industry usually designs around — low bandwidth, shared devices, more than one language, and money that matters.
+**Software engineer · Co-Founder & CTO at [Tija Labs](https://tijalabs.com)** · Kenya
 
+I build full-stack products for people the software industry usually designs around — low bandwidth, shared devices, more than one language, and money that matters.
+
+[![Website](https://img.shields.io/badge/Website-brucenduko.dev-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://brucenduko.dev)
 [![StudySphere](https://img.shields.io/badge/Live-www.studysphere.it.com-2563eb?style=flat-square&logo=googlechrome&logoColor=white)](https://www.studysphere.it.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-brucenduko-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brucenduko)
 [![Email](https://img.shields.io/badge/Email-ndukobruce%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ndukobruce@gmail.com)
@@ -50,8 +53,8 @@ guide and store deployment docs.
 
 ---
 
-### 🛂 Alama — a work record the worker owns
-Informal workers have years of provable work and no way to prove it. Alama turns forwarded
+### 🛂 [Allama](https://allama-theta.vercel.app) — a work record the worker owns
+Informal workers have years of provable work and no way to prove it. Allama turns forwarded
 M-Pesa messages, job photos and voice notes into a verifiable Productivity Passport that a
 landlord or a lender can actually trust.
 
@@ -67,6 +70,23 @@ for voice notes and **S3** for staging.
 - Route-level code splitting roughly **halved the initial JS payload**
 
 `React` `Vite` `Tailwind` `Express` `AWS Bedrock` `Vercel` `Redis`
+
+---
+
+## All projects
+
+| Project | What it is | Status |
+|---|---|---|
+| [**StudySphere**](https://studysphere.it.com) | Student productivity platform with an AI assistant, autopilot planner and focus tools | Live |
+| [**Allama**](https://allama-theta.vercel.app) | Productivity Passport — verifiable work records for informal-economy workers | Live |
+| [**LeverageX**](https://play.google.com/store/apps/details?id=com.leveragex.leveragex) | Productivity and goal-tracking Android app on Google Play | Live |
+| **Tija Labs Billing Engine** | Full subscription invoicing and billing system | Live |
+| [**tijalabs.com**](https://tijalabs.com) | Tija Labs company website | Live |
+| **Ledger** | Chat-first AI career copilot | In progress |
+| **Hali** | Venue discovery and experience platform with personalized taste matching | In progress |
+| **A-Inya** | Nutrition app that helps you decide what to eat | In progress |
+
+More on [brucenduko.dev/projects](https://brucenduko.dev/projects).
 
 ---
 
@@ -117,7 +137,6 @@ programming coursework in C++, kept public because fundamentals are worth showin
 
 **Open to interesting problems.**
 
-[LinkedIn](https://www.linkedin.com/in/brucenduko) · [ndukobruce@gmail.com](mailto:ndukobruce@gmail.com)
+[brucenduko.dev](https://brucenduko.dev) · [LinkedIn](https://www.linkedin.com/in/brucenduko) · [ndukobruce@gmail.com](mailto:ndukobruce@gmail.com)
 
 </div>
-
